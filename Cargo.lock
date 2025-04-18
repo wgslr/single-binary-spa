@@ -78,16 +78,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "backend"
-version = "0.1.0"
-dependencies = [
- "axum",
- "mime_guess",
- "rust-embed",
- "tokio",
-]
-
-[[package]]
 name = "backtrace"
 version = "0.3.74"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -581,6 +571,16 @@ dependencies = [
  "itoa",
  "ryu",
  "serde",
+]
+
+[[package]]
+name = "server"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "mime_guess",
+ "rust-embed",
+ "tokio",
 ]
 
 [[package]]
